@@ -7,6 +7,9 @@
 
 [<img src="https://img.shields.io/hexpm/l/plug.svg">](https://raw.githubusercontent.com/Mobbeel/fataar-gradle-plugin/master/LICENSE)
 
+> [!WARNING]
+> This plugin is deprecated! Please try out [Android Fused Library plugin](https://developer.android.com/build/publish-library/fused-library) instead, which is backed by Android official.
+
 In [Mobbeel](http://www.mobbeel.com/) we work with a complex hierarchy of modules that in turn must embed other dependencies in the resulting AAR. To do this we use this Gradle plugin that allows to merge a project and its dependencies in the same AAR (fat-aar).
 
 Issue reporting are welcome to continue to improve this plugin.
